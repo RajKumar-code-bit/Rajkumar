@@ -1,9 +1,10 @@
 import React from 'react'
 import { DiJavascript } from 'react-icons/di'
-import { FaCss3Alt, FaGithub, FaHtml5, FaNodeJs } from 'react-icons/fa'
+import { FaCss3Alt, FaDatabase, FaGithub, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiMysql, SiTypescript } from 'react-icons/si'
 import { motion } from 'framer-motion'
+import { FaE } from 'react-icons/fa6'
 
 
 const iconVariants=(duration)=>({
@@ -21,7 +22,7 @@ const iconVariants=(duration)=>({
 
 const Technologies = () => {
   return (
-    <div className='pb-24'>
+    <div id='technologies' className='pb-24'>
         <motion.h2 
             whileInView={{opacity:1,y:0}}
             initial={{opacity:0, y:-100}}
@@ -95,6 +96,13 @@ const Technologies = () => {
                 variants={iconVariants(5)}
                 className='p-4'>
                 <FaNodeJs className='text-7xl text-yellow-400'/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(5)}
+                className='p-4'>
+                <FaDatabase className='text-7xl text-blue-400'/>
             </motion.div>
         </motion.div>
     </div>
