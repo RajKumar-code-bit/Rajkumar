@@ -1,6 +1,6 @@
 import React from 'react'
 import { DiJavascript } from 'react-icons/di'
-import { FaCss3Alt, FaGithub, FaHtml5 } from 'react-icons/fa'
+import { FaCss3Alt, FaGithub, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiMysql, SiTypescript } from 'react-icons/si'
 import { motion } from 'framer-motion'
@@ -88,6 +88,13 @@ const Technologies = () => {
                 variants={iconVariants(4)}
                 className='p-4'>
                 <FaCss3Alt className='text-7xl text-blue-700'/>
+            </motion.div>
+            <motion.div 
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(5)}
+                className='p-4'>
+                <FaNodeJs className='text-7xl text-yellow-400'/>
             </motion.div>
         </motion.div>
     </div>

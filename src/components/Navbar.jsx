@@ -12,13 +12,13 @@ const Navbar = () => {
 
         </div>
         <div className='m-8 flex  items-center justify-center gap-4 text-2xl'>
-          <a href='www.linkedin.com/in/rajkumar-d-74b09a192'
+          <a href='https://www.linkedin.com/in/rajkumar-d-74b09a192'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='LinkedIn'>
             <FaLinkedin/>
           </a>
-          <a href='www.linkedin.com/in/rajkumar-d-74b09a192'
+          <a href='https://github.com/RajKumar-code-bit'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='GitHub'>
