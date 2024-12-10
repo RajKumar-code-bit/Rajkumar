@@ -48,7 +48,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <a
-          href="www.linkedin.com/in/rajkumar-d-74b09a192"
+          href="https://x.com/?lang=en"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
